@@ -1,0 +1,66 @@
+function myFunction() {
+  var x = document.getElementById("Kotak");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  
+  function myFunctiona() {
+    var x = document.getElementById("jupiter");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+function myFunctionb() {
+    var x = document.getElementById("bob");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+  function myFunctionc() {
+    var x = document.getElementById("jio");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+  function myFunctiond() {
+    var x = document.getElementById("canera");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+  function myFunctione() {
+    var x = document.getElementById("indie");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  function myFunctionz() {
+    var x = document.getElementById("sbi");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+  
+
+          
