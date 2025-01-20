@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Others QR Codes</title>
 
+    <style>
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.image{
+    display: none;
+    width: 70vw;
+}
+
+button{
+    width: 90vw;
+    height: 50px;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 70px;
+    background: none;
+    border: none;
+}
+
+
+    </style>
+</head>
+<body><center>
+    
+<h1>Others UPI QR Codes</h1>
+
+
+
+
+  <button onclick="toggleImage(1)">Arun Augustine</button>
+
+            <img id="image1" class="image" src="img/Arun_T_A.jpg" alt="Image 1">
+
+
+
+  <button onclick="toggleImage(2)">Akshay Das V A</button>
+
+            <img id="image2" class="image" src="img/Akshay.jpg" alt="Image 2">
+
+
+
+  <button onclick="toggleImage(3)">Akhil Gosh D</button>
+
+            <img id="image3" class="image" src="img/GoshD.jpg" alt="Image 3">
+
+
+
+  <button onclick="toggleImage(4)">Justin Johny</button>
+
+            <img id="image4" class="image" src="img/Justin.jpg" alt="Image 4">
+
+
+
+  <button onclick="toggleImage(5)">Button 5</button>
+
+            <img id="image5" class="image" src="image5.jpg" alt="Image 5">
+
+
+
+
+
+
+</center>
+
+
+
+ <script>
+   let lastVisibleImage = null; // To track the last visible image
+
+   function toggleImage(buttonNumber) {
+     const currentImage = document.getElementById(`image${buttonNumber}`);
+
+     // If the current image is already visible, hide it
+     if (currentImage.style.display === "block") {
+       currentImage.style.display = "none";
+       lastVisibleImage = null;
+     } else {
+       // If there was a visible image, hide it
+       if (lastVisibleImage !== null) {
+         lastVisibleImage.style.display = "none";
+       }
+
+       // Show the clicked image and update the last visible image
+       currentImage.style.display = "block";
+       lastVisibleImage = currentImage;
+     }
+   }
+ </script>
+
+
+
+
+</body>
+</html>
